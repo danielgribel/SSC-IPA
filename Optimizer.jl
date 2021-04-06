@@ -441,7 +441,7 @@ function general_loop!(population, pi1, pi2, data, Mt, label)
 end
 
 function create_output_file(data, seed)
-    OUTPUT_FILE = "out/"  * data.instance * "-" * string(seed) * "-" * string(data.input.GAMMA) * ".txt"
+    OUTPUT_FILE = "out/"  * data.instance * "-" * string(seed) * "-" * ".txt"
     return OUTPUT_FILE
 end
 
@@ -533,9 +533,8 @@ function print_result(sol, truth, cputime, OUTPUT_FILE)
     line *= @sprintf("%.4f", total_viol) * " "
     line *= @sprintf("%.4f", cputime) * " "
     println(line)
-    println(sol.y)
-    # line *= string(sol.y) * " "
-    # line *= "\n"
+    # println(sol.y)
+    # line *= string(sol.y) * "\n"
     # write_output(line, OUTPUT_FILE)
 end
 

@@ -86,7 +86,7 @@ function Solution(data, y, centers)
 
     llsbm = data.input.ANNOTATION*ll_SBM_fixed_prior(data, m, counter, w, beta)
 
-    ll = data.input.GAMMA*llgmm + llsbm
+    ll = llgmm + llsbm
 
     # Create the solution
     return Solution(ll, llgmm, llsbm, data, y, z, m, kappa, mu, sigma2, counter, dist)
@@ -96,7 +96,7 @@ end
 function update_ll(sol, llgmm, llsbm)
     sol.llgmm = llgmm
     sol.llsbm = sol.data.input.ANNOTATION*llsbm
-    sol.ll = sol.data.input.GAMMA*llgmm + sol.data.input.ANNOTATION*llsbm
+    sol.ll = llgmm + sol.data.input.ANNOTATION*llsbm
 end
 
 # Update the GMM parameters
