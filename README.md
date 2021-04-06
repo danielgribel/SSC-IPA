@@ -20,7 +20,7 @@ julia> include("Optimizer.jl")
 
 julia> in = Input(1234, 50, 1, 0.9)
 
-julia> main("vertebral.data", "vertebral-graph", in)
+julia> main("vertebral", "vertebral-graph", in)
 ```
 
 ### Parameters of `Input`
@@ -37,4 +37,4 @@ julia> main("vertebral.data", "vertebral-graph", in)
 
 `dataset`: Dataset name. The dataset file must be within the /data folder inside the project.
 
-`graph_prefix`: Graph prefix name. **Important:** You must provide a graph file with sufix "-1" for the _must-link_ graph, and a graph file with sufix "-2" for the _cannot-link_ graph. Example: "vertebral-graph-1.link" and "vertebral-graph-2.link". The graph files must be within the /data folder inside the project.
+`graph_prefix`: Graph prefix name. **Important:** You must provide a file with sufix "-1" for the _must-link_ graph, and a file with sufix "-2" for the _cannot-link_ graph. Example: "vertebral-graph-1.link" and "vertebral-graph-2.link". The graph files must be within the /data folder inside the project.
