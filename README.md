@@ -33,7 +33,7 @@ julia> main("vertebral", "vertebral-graph", in)
 
 `prior`: Prior estimation regarding the experts' accuracy (between 0 and 1; enter -1 for no priors)
 
-### Arguments of the `main` function
+### Parameters of the `main` function
 
 `dataset`: Dataset name. The dataset file must be within the /data folder inside the project.
 
