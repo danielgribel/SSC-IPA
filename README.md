@@ -15,8 +15,10 @@ julia> main("dataset", "graph_prefix", in)
 
 ### Example
 
-`julia> include("Optimizer.jl")`
+```
+julia> include("Optimizer.jl")
 
-`julia> in = Input(1234, 50, 1, 0.9)`
+julia> in = Input(1234, 50, 1, 0.9)
 
-`julia> main("vertebral", "vertebral-graph", in)`
+julia> main("vertebral", "vertebral-graph", in)
+```
