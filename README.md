@@ -7,7 +7,9 @@ To run the SSC-IPA algorithm, open the Julia terminal try the following commands
 
 `
 julia> include("Optimizer.jl")
+
 julia> in = Input(seed, max_it, supervision_flag, prior)
+
 julia> main("dataset", "graph_prefix", in)
 `
 
