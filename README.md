@@ -1,6 +1,10 @@
 # SSC-IPA
 Source code of "Semi-Supervised Clustering with Inaccurate Pairwise Annotations" (Gribel, Gendreau and Vidal, 2021)
 
+## Related Article
+
+Semi-Supervised Clustering with Inaccurate Pairwise Annotations: https://arxiv.org/abs/2104.02146
+
 ## Run
 
 To run the SSC-IPA algorithm, open the Julia terminal and try the following commands:
