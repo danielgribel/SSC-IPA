@@ -45,7 +45,7 @@ julia> main("vertebral.data", "vertebral-must.link", "vertebral-cannot.link", in
 
 `cannot_graph`: _Cannot-link_ graph file.
 
-**Important:** The dataset, _must-link_ graph, and _cannot-link_ graph files must be within the `/data` folder inside the project.
+**Important:** The dataset, labels, _must-link_ graph, and _cannot-link_ graph files must be within the `/data` folder inside the project.
 
 ### Data format
 
