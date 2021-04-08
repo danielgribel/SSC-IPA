@@ -556,13 +556,13 @@ function print_omega(w)
     println(x)
 end
 
-function main(dataset, graph, input)
+function main(dataset, graph_must, graph_cannot, input)
     # Random number generators
     Mt = MersenneTwister(input.SEED)
     Random.seed!(input.SEED)
 
     # Create an instance of data
-    data, label = load_data(dataset, graph, input)
+    data, label = load_data(dataset, graph_must, graph_cannot, input)
 
     # Initial population size
     pi1 = 10
