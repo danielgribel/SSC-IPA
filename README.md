@@ -45,7 +45,7 @@ julia> main("vertebral.data", "vertebral-must.link", "vertebral-cannot.link", in
 
 ### Data format
 
-**Dataset files.** The dataset file has n rows and d columns, where n is the number of data samples and d is the number of features. Each line contains the values of the d features of a data sample, where x_ij correspond to the j-th feature of the i-th sample of the data. Each feature value is separated by a single space, as depicted in the scheme below:
+**Dataset files.** The dataset file has n rows and d columns, where n is the number of data samples and d is the number of features. Each line contains the values of the d features of a data sample, where x<sub>ij</sub> correspond to the j-th feature of the i-th sample of the data. Each feature value is separated by a single space, as depicted in the scheme below:
 
 | x<sub>11</sub> | x<sub>12</sub> | x<sub>13</sub> | ... | x<sub>1d</sub> |
 |------|------|------|-----|------|
@@ -55,7 +55,7 @@ julia> main("vertebral.data", "vertebral-must.link", "vertebral-cannot.link", in
 
 **Important**: Dataset files must have the `.data` extension.
 
-**Graph files.** A graph file (_must-link_ or _cannot-link_) has m rows and 3 columns, where m is the number of connections (links) in the graph. The first two columns represent the two data sample of an edge, whereas and third column represents the edge weight. The scheme below describes a graph file:
+**Graph files.** A graph file (_must-link_ or _cannot-link_) has m rows and 3 columns, where m is the number of connections (links) in the graph. The first two columns represent the two data samples of an edge, whereas and third column represents the edge weight. The scheme below describes a graph file, where s<sub>i</sub> and t<sub>i</sub> are two connected samples, and w<sub>i</sub> is the corresponding edge weight:
 
 | s<sub>1</sub> | t<sub>1</sub> | w<sub>1</sub> |
 |------|------|------|
