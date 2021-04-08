@@ -37,9 +37,11 @@ julia> main("vertebral.data", "vertebral-must.link", "vertebral-cannot.link", in
 
 `dataset`: Dataset file. **Important:** The dataset file must be within the /data folder inside the project. You must provide a file with the .data extension along with a labels file. The labels file must have the .label extension. Example: For a dataset named vertebral.data, you must provide the vertebral.label file in the same folder.
 
-`must_graph`: _Must-link_ graph. **Important:** The _must-link_ graph file must be within the /data folder inside the project.
+`must_graph`: _Must-link_ graph file.
 
-`cannot_graph`: _Cannot-link_ graph. **Important:** The _cannot-link_ graph file must be within the /data folder inside the project.
+`cannot_graph`: _Cannot-link_ graph file.
+
+**Important:** The _must-link_ and _cannot-link_ graph files must be within the /data folder inside the project.
 
 ### Data format
 
@@ -47,11 +49,14 @@ julia> main("vertebral.data", "vertebral-must.link", "vertebral-cannot.link", in
 
 |------|------|------|-----|------|
 | x<sub>11</sub> | x<sub>12</sub> | x<sub>13</sub> | ... | x<sub>1d</sub> |
-|------|------|------|-----|------|
 | x<sub>21</sub> | x<sub>22</sub> | x<sub>23</sub> | ... | x<sub>2d</sub> |
-|------|------|------|-----|------|
 | x<sub>n1</sub> | x<sub>n2</sub> | x<sub>n3</sub> | ... | x<sub>nd</sub> |
-|------|------|------|-----|------|
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 
 **Important**: Dataset files must have the `.data` extension.
 
