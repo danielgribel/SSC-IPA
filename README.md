@@ -45,6 +45,7 @@ julia> main("vertebral.data", "vertebral-must.link", "vertebral-cannot.link", in
 
 Dataset files. The dataset file has n rows and d columns, where n is the number of data samples and d is the number of features. Each line contains the values of the d features of a data sample, where x_ij correspond to the j-th feature of the i-th sample of the data. Each feature value is separated by a single space, as depicted in the scheme below:
 
+|------|------|------|-----|------|
 | x<sub>11</sub> | x<sub>12</sub> | x<sub>13</sub> | ... | x<sub>1d</sub> |
 | x<sub>21</sub> | x<sub>22</sub> | x<sub>23</sub> | ... | x<sub>2d</sub> |
 | .... | .... | .... | ... | .... |
