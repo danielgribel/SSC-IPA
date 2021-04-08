@@ -67,7 +67,7 @@ julia> main("vertebral.data", "vertebral-must.link", "vertebral-cannot.link", in
 | ... | ... | ... |
 | s<sub>m</sub> | t<sub>m</sub> | w<sub>m</sub> |
 
-**Labels files.** The content of a labels file exhibits the cluster of each sample of the dataset according to the ground-truth, where y<sub>i<\sub> corresponds to the label of the i-th sample:
+**Labels files.** The content of a labels file exhibits the cluster of each sample of the dataset according to the ground-truth, where y<sub>i</sub> corresponds to the label of the i-th sample:
 
 y<sub>1</sub>
 
