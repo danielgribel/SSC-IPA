@@ -1,6 +1,10 @@
 # SSC-IPA
 Source code of "Semi-Supervised Clustering with Inaccurate Pairwise Annotations" (Gribel, Gendreau and Vidal, 2021)
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/4787247/116889763-efe70300-abfa-11eb-9810-5df99eaf65fc.png" width="400" height="225">
+</p>
+
 ## Related Article
 
 Semi-Supervised Clustering with Inaccurate Pairwise Annotations: https://arxiv.org/abs/2104.02146
