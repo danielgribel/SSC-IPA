@@ -2,7 +2,7 @@
 Source code of "Semi-Supervised Clustering with Inaccurate Pairwise Annotations" (Gribel, Gendreau and Vidal, 2021).
 
 <p align="center">
-<img src="https://user-images.githubusercontent.com/4787247/116889763-efe70300-abfa-11eb-9810-5df99eaf65fc.png" width="400" height="225">
+<img src="https://user-images.githubusercontent.com/4787247/116889763-efe70300-abfa-11eb-9810-5df99eaf65fc.png" width="500" height="275">
 </p>
 
 ## Related Article
